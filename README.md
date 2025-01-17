@@ -19,7 +19,7 @@ python main.py --model_name LightGCL
 #### 实验结果
 - 在[Grocery_and_Gourmet_Food](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)数据集上进行实验，实验结果如下：
 
-![results](./results/Grocery_and_Gourmet_Food.png)
+![results](./results/fig1.png)
 | 模型 | HR@20/Grocery | NDCG@20/Grocery | Times/Grocery | HR@5/Grocery | NDCG@5/Grocery | Times/Grocery |
 |------|---------------|-----------------|---------------|--------------|----------------|---------------|
 | LightGCL | 0.5916 | 0.3093 | 216.2 | 0.3466 | 0.2382 | 217.8 |
@@ -35,6 +35,6 @@ python main.py --model_name LightGCL
 | LightGCN | 0.7272 | 0.3541 | 1295.3 s | 0.3730 | 0.2534 | 1622.4 s |
 
 
-![results](./results/MovieLens-1M.png)
+![results](./results/fig2.png)
 
 
