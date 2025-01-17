@@ -12,14 +12,14 @@
 #### 模型运行
 ```bash
 pip install -r requirements.txt
-python main.py --model_name LightGCL
+python src/main.py --model_name LightGCL --dataset data/Grocery_and_Gourmet_Food
 ```
 
 
 #### 实验结果
 - 在[Grocery_and_Gourmet_Food](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)数据集上进行实验，实验结果如下：
 
-![results](./results/Grocery_and_Gourmet_Food.png)
+
 | 模型 | HR@20/Grocery | NDCG@20/Grocery | Times/Grocery | HR@5/Grocery | NDCG@5/Grocery | Times/Grocery |
 |------|---------------|-----------------|---------------|--------------|----------------|---------------|
 | LightGCL | 0.5874 | 0.3097 | 216.2 | 0.3507 | 0.2410 | 217.8 |
@@ -38,6 +38,4 @@ python main.py --model_name LightGCL
 | LightGCL-Neighbor | 0.6781 | 0.3241 | 1495.5 s | 0.3424 | 0.2283 | 1685.1 s |
 | LightGCL-Neighbor-r=2 | 0.6945 | 0.3381 | 969.4 s | 0.3577 | 0.2421 | 1135.0 s |
 
-
-![results](./results/MovieLens-1M.png)
 
